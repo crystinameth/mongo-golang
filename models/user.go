@@ -6,5 +6,5 @@ type User struct{
 	Id      bson.ObjectId   `json:"id" bson:"_id"`
 	Name    string          `json:"name" bson:"name"`
 	Gender  string          `json:"gender" bson:"gender"`
-	Age     string          `json:"age: bson:"age"`
+	Age     string          `json:"age" bson:"age"`
 }
